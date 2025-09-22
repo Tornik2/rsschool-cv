@@ -1,5 +1,7 @@
 # Tornike Sharvashidze
 
+![](./avatar.png)
+
 ## [My Portfolio](https://portfolio-tornikesharvashidze.netlify.app/)
 
 ## Contact Info
