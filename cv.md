@@ -1,6 +1,6 @@
 # Tornike Sharvashidze
 
-![](./avatar.png)
+<img src="image.png" alt="Alt text" width="250" height="260">
 
 ## [My Portfolio](https://portfolio-tornikesharvashidze.netlify.app/)
 
