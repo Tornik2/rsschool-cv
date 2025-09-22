@@ -1,6 +1,6 @@
 # Tornike Sharvashidze
 
-<img src="avatar.png" alt="Alt text" width="250" height="260">
+<img src="./avatar.png" alt="Alt text" width="250" height="260">
 
 ## [My Portfolio](https://portfolio-tornikesharvashidze.netlify.app/)
 
