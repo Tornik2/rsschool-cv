@@ -3,111 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>CV</title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="./rs-school-logo.svg" alt="rs-school-logo" />
+      <div class="container header-container">
+        <div class="logo">
+          <img src="./rs-school-logo.svg" alt="rs-school-logo" />
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
     </header>
     <main>
-      <div class="introduction-div">
-        <h1>Tornike Sharvashidze</h1>
-        <div class="avatar">
-          <img src="./avatar-html.png" alt="avatar" />
+      <div class="container">
+        <div class="introduction-div">
+          <h1>Tornike Sharvashidze</h1>
+          <div class="avatar">
+            <img src="./avatar-html.png" alt="avatar" />
+          </div>
+          <p class="self-intro">
+            I am a junior front-end developer with a background in medicine. I
+            enjoy finding logical solutions to problems and turning ideas into
+            functional web applications.
+          </p>
         </div>
-        <p class="self-intro">
-          I am a junior front-end developer with a background in medicine. I
-          enjoy finding logical solutions to problems and turning ideas into
-          functional web applications.
-        </p>
-      </div>
-      <div class="cv-section">
-        <h2>Contact Info</h2>
-        <ul>
-          <li>Phone: +995 555 309 444</li>
-          <li>Email: tornik2@yahoo.com</li>
-          <li>Discord: Tornike(tornik2)</li>
-          <li>
-            LinkedIn:
-            <a href="https://www.LinkedIn.com" target="_blank"
-              >Tornike Sharvashidze</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="cv-section">
-        <h2>Skills</h2>
-        <ul>
-          <li>JS</li>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>Next.js</li>
-        </ul>
-      </div>
-      <div class="cv-section">
-        <h2>Code Example</h2>
-        <pre>
+        <div class="cv-section">
+          <h2>Contact Info</h2>
+          <ul>
+            <li>Phone: +995 555 309 444</li>
+            <li>Email: tornik2@yahoo.com</li>
+            <li>Discord: Tornike(tornik2)</li>
+            <li>
+              LinkedIn:
+              <a href="https://www.LinkedIn.com" target="_blank"
+                >Tornike Sharvashidze</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2>Skills</h2>
+          <ul>
+            <li>JS</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Next.js</li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2>Code Example</h2>
+          <pre>
           <code>
             funtction sayHi(name) {
               return `Hi, ${name}`
               }
           </code>
         </pre>
-      </div>
-      <div class="cv-section">
-        <h2>Educational Projects</h2>
-        <ul>
-          <li>
-            <a href="https://gleeful-cactus-469017.netlify.app/" target="_blank"
-              >Random Quiz</a
-            >
-          </li>
-          <li>
-            <a href="https://taupe-figolla-25c638.netlify.app/" target="_blank"
-              >Landing Page</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="cv-section">
-        <h2>Education</h2>
-        <ul>
-          <li>Medical University - 2016-2022</li>
-          <li>Scrimba Frontend Developer Path - 2023</li>
-          <li>RS School - 2025-present</li>
-        </ul>
-      </div>
-      <div class="cv-section">
-        <h2>Languages</h2>
-        <ul>
-          <li>Georgian - Native</li>
-          <li>English - C1</li>
-          <li>German - B1</li>
-          <li>Russian - A2</li>
-        </ul>
+        </div>
+        <div class="cv-section">
+          <h2>Educational Projects</h2>
+          <ul>
+            <li>
+              <a
+                href="https://gleeful-cactus-469017.netlify.app/"
+                target="_blank"
+                >Random Quiz</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://taupe-figolla-25c638.netlify.app/"
+                target="_blank"
+                >Landing Page</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2>Education</h2>
+          <ul>
+            <li>Medical University - 2016-2022</li>
+            <li>Scrimba Frontend Developer Path - 2023</li>
+            <li>RS School - 2025-present</li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2>Languages</h2>
+          <ul>
+            <li>Georgian - Native</li>
+            <li>English - C1</li>
+            <li>German - B1</li>
+            <li>Russian - A2</li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer>
-      <div class="logo">
-        <img src="./rs-school-logo.svg" alt="rs-school-logo" />
+      <div class="container footer-container">
+        <div class="logo">
+          <img src="./rs-school-logo.svg" alt="rs-school-logo" />
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="https://github.com/Tornik2" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://rs.school/courses/short-track" target="_blank"
+              >RS ST Course</a
+            >
+          </li>
+        </ul>
       </div>
-      <ul class="nav-list">
-        <li><a href="https://github.com/Tornik2" target="_blank">Github</a></li>
-        <li>
-          <a href="https://rs.school/courses/short-track" target="_blank"
-            >RS ST Course</a
-          >
-        </li>
-      </ul>
     </footer>
   </body>
 </html>
