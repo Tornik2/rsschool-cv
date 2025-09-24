@@ -12,6 +12,16 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
 /* logo */
 .logo {
   width: 100px;
@@ -97,6 +107,18 @@ footer {
 }
 pre {
   margin: 10px 0;
+}
+
+/* links */
+header,
+footer a {
+  color: rgb(50, 26, 26);
+}
+.with-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 @media (min-width: 500px) {
