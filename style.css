@@ -122,9 +122,11 @@ footer a {
 }
 
 .year {
-  text-align: center;
+  display: inline-block;
   margin-top: 10px;
-  margin-bottom: -10px;
+  padding-top: 5px;
+  border-top: 1px solid #acabab;
+  width: 100px;
 }
 
 @media (min-width: 500px) {
