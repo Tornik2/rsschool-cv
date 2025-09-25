@@ -1,3 +1,5 @@
 # rsschool-cv
 
-[My CV](https://tornik2.github.io/rsschool-cv/cv)
+1. [CV](https://tornik2.github.io/rsschool-cv/) - HTML
+
+2. [CV](https://tornik2.github.io/rsschool-cv/cv) - md
